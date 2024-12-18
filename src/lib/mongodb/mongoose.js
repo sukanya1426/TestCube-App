@@ -11,7 +11,7 @@ export const connect = async () => {
     }
     try {
         await mongoose.connect(process.env.MONGODB_URI,{
-            dbName:"next js app",
+            dbName:"testcube-app",
             useNewUrlParser: true,
             userUnifiedTopology : true,
         });
